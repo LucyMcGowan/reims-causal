@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Causal Inference in R",
+    "section": "",
+    "text": "Welcome! This workshop is taught by Lucy D’Agostino McGowan, Associate Professor of Statistical Sciences at Wake Forest University.\nOver the course of this workshop, we’ll work through an introduction to causal inference, from specifying a causal question and drawing assumptions, to estimating and communicating causal effects (using R!)."
+  },
+  {
+    "objectID": "index.html#slides",
+    "href": "index.html#slides",
+    "title": "Causal Inference in R",
+    "section": "Slides",
+    "text": "Slides\n\nThe Whole Game\nFrom Casual to Causal\nEstimating counterfactuals\nCausal Diagrams\nCausal Estimands\nBuilding Propensity Score Models\nPropensity Score Diagnostics\nOutcome Models\nContinuous exposures and g-computation\nSensitivity Analyses\nExercises in R"
+  },
+  {
+    "objectID": "index.html#r-setup",
+    "href": "index.html#r-setup",
+    "title": "Causal Inference in R",
+    "section": "R Setup",
+    "text": "R Setup\n\nPosit Cloud\nTo follow along, the preferred way to access the materials is through this Posit Cloud Workspace. After clicking this link, you will sign up for a (free) account (or sign in if you already have an account). Then make a copy of the project by clicking “Save a Permanent Copy”:\n\nYou can download these files locally to your machine after, if you would like to. The reason this method is preferred is I have pre-installed all of the needed packages here.\n\n\nLocal\nIf you want to work through the material locally, you’ll need R and RStudio installed. Then install the required packages by running the following in your R console:\ninstall.packages(c(\n  \"broom\",\n  \"dagitty\",\n  \"ggdag\",\n  \"ggokabeito\",\n  \"gtsummary\",\n  \"halfmoon\",\n  \"MatchIt\",\n  \"propensity\",\n  \"rsample\",\n  \"survey\",\n  \"tidyverse\",\n  \"remotes\"\n))\n\nremotes::install_github(\"LucyMcGowan/touringplans\")\nYou can then download a zip folder of all exercises from here: All Exercises\nDue to time constraints during the workshop, I will not be able to troubleshoot local installation issues, but I am happy to discuss them afterwards."
+  }
+]
